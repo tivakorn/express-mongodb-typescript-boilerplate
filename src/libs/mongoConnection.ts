@@ -1,12 +1,6 @@
 
 import { MongoClient, Db } from 'mongodb'
 
-const url: string = 'mongodb.devpantip.com'
-const port: number = 27017
-const username: string = 'dev'
-const password: string = '4XX7rfa>j}'
-const dbname: string = 'pantip_month10'
-
 const mongoConnection = async (callback: any, errorCallback?: any) => {
 
     let connect = null
